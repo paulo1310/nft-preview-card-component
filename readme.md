@@ -29,7 +29,7 @@
 
 ### Links
 
-- Site URL: https://nandosti.github.io/qr-code-component-main/
+- Site URL: https://paulo1310.github.io/nft-preview-card-component/
 
 ### Construído com
 
