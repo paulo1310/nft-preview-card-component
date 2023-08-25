@@ -25,7 +25,7 @@
 
 #### Tela Mobile
 
-<img src="./src/images/mobile.png" alt="Exibindo responsividade no mobile">
+<img src="./src/images/nft-mobile.gif" alt="Exibindo responsividade no mobile">
 
 ### Links
 
