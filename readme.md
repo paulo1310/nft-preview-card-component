@@ -11,13 +11,13 @@
 - [O que aprendi](#o-que-aprendi)
 - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
 - [Recursos úteis](#recursos-úteis)
-- [Fernando Mendes](#autor)
+- [Paulo Carvalho](#autor)
 
 ### Captura de tela
 
 #### Tela Desktop
 
-<img src="./src/images/Laptop-1-1440x900.png" alt="Tela desktop exibindo funcionalidades">
+<img src="./src/images/nft-laptop.png" alt="Tela desktop exibindo funcionalidades">
 
 #### Tela Ipad
 
@@ -45,31 +45,26 @@ Nesse projeto envolvendo HTML e CSS, aprendi conceitos importantes. Através do 
 ## Trechos de códigos
 
 ```
-body{
-    font-family: 'Outfit', sans-serif;
-}
-
-.container{
-    background-color: var(--backgrond-container);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.container .qr-container{
-    width: 300px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-card);
-    text-align: center;
+.nft-card .image-link::before{    
+    content: '';
+    background-color: cyan;
     border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
+.nft-card .image-link::after{
+    content: '';
+    background: url(../images/icon-view.svg) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
 ```
 
 ### Desenvolvimento contínuo
@@ -83,5 +78,5 @@ Pretendo continuar focado em construir um conhecimento sólido nessas limguagens
 
 ## Autor
 
-[Fernando Mendes](https://www.linkedin.com/in/fernandomendesti/)
+[Paulo Carvalho](https://www.linkedin.com/in/paulocarvalho13/)
 
